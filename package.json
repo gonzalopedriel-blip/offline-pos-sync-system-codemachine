@@ -1,0 +1,12 @@
+{
+  "name": "offline-pos-sync-system",
+  "version": "1.0.0",
+  "description": "Sistema de sincronización offline para POS",
+  "main": "templates/workflows/offline-pos-sync-system.workflow.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["codemachine", "workflow", "pos", "offline", "sync"],
+  "author": "",
+  "license": "ISC"
+}

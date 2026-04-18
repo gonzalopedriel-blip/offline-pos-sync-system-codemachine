@@ -1,0 +1,189 @@
+{
+  "personas": {
+    "analytical": {
+      "baseFace": "[•_•]",
+      "expressions": {
+        "thinking": "[•_•]~",
+        "tool": "[◉_◉]",
+        "error": "[x_x]",
+        "idle": "[•_•]"
+      },
+      "phrases": {
+        "thinking": [
+          "Analizando estructura de datos...",
+          "Evaluando modelo de entidades...",
+          "Procesando requisitos...",
+          "Examinando arquitectura...",
+          "Verificando consistencia...",
+          "Calculando dependencias...",
+          "Revisando especificaciones...",
+          "Determinando relaciones...",
+          "Verificando constraints...",
+          "Evaluando opciones..."
+        ],
+        "tool": [
+          "Ejecutando análisis...",
+          "Procesando datos...",
+          "Resultado disponible...",
+          "Consulta completada...",
+          "Información recuperada...",
+          "Datos procesados...",
+          "Archivo leído...",
+          "Operación ejecutada...",
+          "Extracción completada...",
+          "Resultado obtenido..."
+        ],
+        "error": [
+          "Inconsistencia detectada...",
+          "Error en análisis...",
+          "Datos insuficientes...",
+          "Conflicto identificado...",
+          "Fallo en validación...",
+          "Problema estructural...",
+          "Dependencia faltante...",
+          "Error de configuración...",
+          "Valor inesperado...",
+          "Falta de datos..."
+        ],
+        "idle": [
+          "Esperando instrucciones...",
+          "Listo para analizar...",
+          "A la espera de datos...",
+          " Preparado para procesar...",
+          "En espera de contexto...",
+          "Disponible para análisis...",
+          "Listo para comenzar...",
+          "En standby...",
+          "Esperando input...",
+          "Listo para operar..."
+        ]
+      }
+    },
+    "technical": {
+      "baseFace": "{•_•}",
+      "expressions": {
+        "thinking": "{•~•}",
+        "tool": "{•!•}",
+        "error": "{•x•}",
+        "idle": "{•_•}"
+      },
+      "phrases": {
+        "thinking": [
+          "Procesando requisitos técnicos...",
+          "Analizando flujo de datos...",
+          "Evaluando estrategia de sync...",
+          "Diseñando pipeline...",
+          "Calculando optimalidad...",
+          "Revisando implementación...",
+          "Verificando lógica...",
+          "Evaluando performance...",
+          "Analizando arquitectura...",
+          "Procesando soluciones..."
+        ],
+        "tool": [
+          "Ejecutando operación...",
+          "Procesando solicitud...",
+          "Completado...",
+          "Operación exitosa...",
+          "Dato devuelto...",
+          "Request procesado...",
+          "Ejecución completada...",
+          "Function ejecutada...",
+          "Proceso terminado...",
+          "Resultado obtenido..."
+        ],
+        "error": [
+          "Error en ejecución...",
+          "Fallo de proceso...",
+          "Timeout excedido...",
+          "Error de conexión...",
+          "Excepción capturada...",
+          "Fallo en operation...",
+          "Error técnico...",
+          "Fallo de sistema...",
+          "Problema detectado...",
+          "Error inesperado..."
+        ],
+        "idle": [
+          "En espera...",
+          "Listo para operar...",
+          "Processando...",
+          "En standby...",
+          "Esperando input...",
+          "Listo para ejecutar...",
+          "En pausa...",
+          "Disponiendo...",
+          "En estado idle...",
+          "A la espera..."
+        ]
+      }
+    },
+    "precise": {
+      "baseFace": "<•_•>",
+      "expressions": {
+        "thinking": "<•~•>",
+        "tool": "<•!•>",
+        "error": "<•x•>",
+        "idle": "<•_•>"
+      },
+      "phrases": {
+        "thinking": [
+          "Evaluando precisión...",
+          "Verificando exactitud...",
+          "Revisando estructura...",
+          "Confirmando orden...",
+          "Validando estados...",
+          "Analizando transiciones...",
+          "Verificando consistencia...",
+          "Evaluando idempotencia...",
+          "Confirmando eventos...",
+          "Validando datos..."
+        ],
+        "tool": [
+          "Verificando...",
+          "Validando...",
+          "Confirmando...",
+          "Procesando...",
+          "Completando...",
+          "Ejecutando...",
+          "Verificado...",
+          "Confirmado...",
+          "Validado...",
+          "Listo..."
+        ],
+        "error": [
+          "Inconsistencia detectada...",
+          "Fallo de validación...",
+          "Estado inválido...",
+          "Error de estructura...",
+          "Conflicto de estado...",
+          "Duplicado detectado...",
+          "Fallo de idempotencia...",
+          "Orden no garantizado...",
+          "Error de consistencia...",
+          "Fallo de validación..."
+        ],
+        "idle": [
+          "Esperando validación...",
+          "Listo para verificar...",
+          "En standby de validación...",
+          "A la espera de datos...",
+          "Listo para validar...",
+          "Preparado para confirmar...",
+          "En espera de verificación...",
+          "Listo para procesar...",
+          "Esperando input...",
+          "En pausa..."
+        ]
+      }
+    }
+  },
+  "agents": {
+    "arch-state": "analytical",
+    "arch-sync": "technical",
+    "arch-events": "precise",
+    "dev-impl": "technical",
+    "qa-review": "analytical"
+  },
+  "defaultPersona": "technical"
+}
